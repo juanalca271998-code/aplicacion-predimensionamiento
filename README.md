@@ -31,6 +31,16 @@ Tambien puedes abrir directamente:
 AciBolAC_EXE_BUILD/index.html
 ```
 
+## Ejecutar como app web
+
+El archivo `index.html` de la raiz contiene la aplicacion lista para navegador. Si GitHub Pages esta activo, la app se abre desde la URL publica del repositorio.
+
+En local, abre:
+
+```text
+index.html
+```
+
 ## Modulos de la app AciBolAC
 
 - Conversion de unidades
