@@ -56,6 +56,12 @@ index.html
 
 La carpeta `android-app/` contiene una app Android nativa pequena que abre AciBolAC dentro de un WebView, sin depender del navegador.
 
+APK listo:
+
+```text
+dist/AciBolAC.apk
+```
+
 El APK se compila automaticamente con GitHub Actions en el workflow `Build Android APK`. Al terminar, descarga el artefacto `AciBolAC-debug-apk` desde la pestana Actions del repositorio.
 
 Compilar localmente requiere JDK 17, Android SDK y Gradle:
