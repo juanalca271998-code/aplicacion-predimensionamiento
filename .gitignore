@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+*.log
+tmp_pdf_pages/
+tmp_pdf_render/
+programa/assets/normativa/NB-1225003-1.pdf
