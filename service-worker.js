@@ -1,4 +1,4 @@
-const CACHE_NAME = "acibolac-pwa-v10";
+﻿const CACHE_NAME = "acibolac-pwa-v11";
 const APP_SHELL = [
   "./",
   "./index.html",
