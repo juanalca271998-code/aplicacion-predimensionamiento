@@ -52,6 +52,19 @@ index.html
 - Acero para losas
 - Acero por momento con opcion de 2 capas
 
+## APK Android
+
+La carpeta `android-app/` contiene una app Android nativa pequena que abre AciBolAC dentro de un WebView, sin depender del navegador.
+
+El APK se compila automaticamente con GitHub Actions en el workflow `Build Android APK`. Al terminar, descarga el artefacto `AciBolAC-debug-apk` desde la pestana Actions del repositorio.
+
+Compilar localmente requiere JDK 17, Android SDK y Gradle:
+
+```bash
+cd android-app
+gradle assembleDebug
+```
+
 ## Proyecto Python adicional
 
 El repositorio tambien conserva una version Python de calculo estructural con Streamlit y PySide6.
